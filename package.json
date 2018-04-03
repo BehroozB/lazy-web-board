@@ -1,0 +1,31 @@
+{
+  "name": "lazy-web-board",
+  "version": "1.0.0",
+  "description": "A mern stack project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -wd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BehroozB/lazy-web-board.git"
+  },
+  "author": "Behrooz Babazadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BehroozB/lazy-web-board/issues"
+  },
+  "homepage": "https://github.com/BehroozB/lazy-web-board#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "webpack": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
